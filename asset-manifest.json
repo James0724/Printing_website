@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Printing_website/static/css/main.2cd2a147.chunk.css",
+    "main.js": "/Printing_website/static/js/main.3d5a07c0.chunk.js",
+    "main.js.map": "/Printing_website/static/js/main.3d5a07c0.chunk.js.map",
+    "runtime-main.js": "/Printing_website/static/js/runtime-main.3303ea02.js",
+    "runtime-main.js.map": "/Printing_website/static/js/runtime-main.3303ea02.js.map",
+    "static/css/2.c97faa64.chunk.css": "/Printing_website/static/css/2.c97faa64.chunk.css",
+    "static/js/2.e3019bd1.chunk.js": "/Printing_website/static/js/2.e3019bd1.chunk.js",
+    "static/js/2.e3019bd1.chunk.js.map": "/Printing_website/static/js/2.e3019bd1.chunk.js.map",
+    "index.html": "/Printing_website/index.html",
+    "static/css/2.c97faa64.chunk.css.map": "/Printing_website/static/css/2.c97faa64.chunk.css.map",
+    "static/css/main.2cd2a147.chunk.css.map": "/Printing_website/static/css/main.2cd2a147.chunk.css.map",
+    "static/js/2.e3019bd1.chunk.js.LICENSE.txt": "/Printing_website/static/js/2.e3019bd1.chunk.js.LICENSE.txt",
+    "static/media/icofont.css": "/Printing_website/static/media/icofont.dad3accb.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3303ea02.js",
+    "static/css/2.c97faa64.chunk.css",
+    "static/js/2.e3019bd1.chunk.js",
+    "static/css/main.2cd2a147.chunk.css",
+    "static/js/main.3d5a07c0.chunk.js"
+  ]
+}
