@@ -17,10 +17,19 @@ const About = () => {
 								</div>
 
 								<p>
-									Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt
-									et. Inventore et et dolor consequatur itaque ut voluptate sed
-									et. Magnam nam ipsum tenetur suscipit voluptatum nam et est
-									corrupti.
+									We are a team of experts designers offering a wide variety of
+									quality, affordable/pocket friendly prices and trendy
+									tshirts(Polo, v-shaped, sleevless), plain and customized Sweat
+									shiirts, Hodies, Branded mask and mug, and customized Kenyan
+									made kiondoo/crafts. Our products are tailered for the whole
+									family. We are guided by the basic principles of doing
+									business with alot of transparency, openness and honesty while
+									consistently modifying our products to meet the changing needs
+									of our customers. At JKTee we dont just wait for solution, we
+									create them. we understand that fashion is a matter of
+									individual choises and preference and each client has what
+									he/she loves.which is why we go the extra miles to develope
+									products that are customized according to their needs.
 								</p>
 							</div>
 						</div>
