@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Printing_website/static/css/main.c39e7391.chunk.css",
+    "main.css": "/Printing_website/static/css/main.ccf19c6e.chunk.css",
     "main.js": "/Printing_website/static/js/main.b7b90d9c.chunk.js",
     "main.js.map": "/Printing_website/static/js/main.b7b90d9c.chunk.js.map",
     "runtime-main.js": "/Printing_website/static/js/runtime-main.3303ea02.js",
@@ -10,7 +10,7 @@
     "static/js/2.a1b041b0.chunk.js.map": "/Printing_website/static/js/2.a1b041b0.chunk.js.map",
     "index.html": "/Printing_website/index.html",
     "static/css/2.c97faa64.chunk.css.map": "/Printing_website/static/css/2.c97faa64.chunk.css.map",
-    "static/css/main.c39e7391.chunk.css.map": "/Printing_website/static/css/main.c39e7391.chunk.css.map",
+    "static/css/main.ccf19c6e.chunk.css.map": "/Printing_website/static/css/main.ccf19c6e.chunk.css.map",
     "static/js/2.a1b041b0.chunk.js.LICENSE.txt": "/Printing_website/static/js/2.a1b041b0.chunk.js.LICENSE.txt",
     "static/media/1.2786792c.jpg": "/Printing_website/static/media/1.2786792c.jpg",
     "static/media/2.658a52e0.jpg": "/Printing_website/static/media/2.658a52e0.jpg",
@@ -33,7 +33,7 @@
     "static/js/runtime-main.3303ea02.js",
     "static/css/2.c97faa64.chunk.css",
     "static/js/2.a1b041b0.chunk.js",
-    "static/css/main.c39e7391.chunk.css",
+    "static/css/main.ccf19c6e.chunk.css",
     "static/js/main.b7b90d9c.chunk.js"
   ]
 }
