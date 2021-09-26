@@ -1,15 +1,6 @@
-import React, { useEffect } from 'react';
-import AOS from 'aos';
-
-// import for IconFont usage and aos
-import '../../icofont/icofont.css';
-import 'aos/dist/aos.css';
+import React from 'react';
 
 const Services = () => {
-	useEffect(() => {
-		AOS.init({ duration: 2000, once: true });
-	}, []);
-
 	return (
 		<>
 			<section id="services" class="services pb-5 grey-bg">

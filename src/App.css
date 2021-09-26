@@ -4,8 +4,8 @@
 	margin-top: 30px !important;
 }
 .heading-intro {
-	padding-top: 100px;
-	padding-bottom: 60px;
+	padding-top: 50px;
+	padding-bottom: 30px;
 }
 .heading-intro p {
 	font-family: Courgette, 'script';
@@ -118,20 +118,9 @@ button {
 	padding: 6px;
 }
 
-/* .nav-open {
-	position: absolute;
-	opacity: 1;
-	top: 0 !important;
-}
-.nav-close {
-	position: absolute;
-	opacity: 0;
-	top: -100% !important;
-} */
-
 .navbar-toggle {
 	position: relative;
-	float: right;
+	right: 20px;
 }
 
 .navbar-nav {
@@ -194,7 +183,7 @@ button {
 	text-decoration: none;
 }
 .top_bar .social-links a {
-	padding: 5px;
+	padding: 10px;
 	color: var(--color-tertiary);
 }
 
@@ -262,44 +251,22 @@ button {
 
 #hero-area .contents {
 	padding: 200px 0 80px;
+	text-align: center;
 }
 
 #hero-area .contents h1 {
 	color: #fff;
-	font-size: 40px;
-	font-weight: 700;
 	margin-bottom: 25px;
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	letter-spacing: 3px;
 }
 
 #hero-area .contents p {
-	font-size: 16px;
 	color: #fff;
-	font-weight: 400;
 	line-height: 30px;
 	letter-spacing: 0.5px;
 }
 
-#hero-area .contents .btn {
-	margin: 20px 10px;
-	text-transform: uppercase;
-}
-
-#hero-area .banner_bottom_btn {
-	margin-top: 40px;
-}
-
-#hero-area .banner_bottom_btn i {
-	color: #fff;
-	font-size: 48px;
-	-webkit-transition: all 0.2s linear;
-	transition: all 0.2s linear;
-}
-
-#hero-area .banner_bottom_btn i:hover {
-	color: #005c97;
-}
 /* ==========================================================================
    Great- Started Style
    ========================================================================== */
@@ -308,7 +275,6 @@ button {
 	background-position: 50% -210px;
 	background: fixed;
 	position: relative;
-	height: 400px;
 }
 
 .great-started .great-started-text {
@@ -319,23 +285,12 @@ button {
 	left: 0px;
 	background: rgba(0, 0, 0, 0.8);
 	opacity: 0.9;
-	padding-top: 120px;
-}
-
-.great-started .great-started-text h4 {
-	color: #fff;
-	text-transform: uppercase;
-	font-size: 16px;
+	padding-top: 40px;
 }
 
 .great-started .great-started-text h2 {
 	color: #fff;
-	font-size: 40px;
 	margin: 25px;
-	text-transform: uppercase;
-}
-
-.great-started .great-started-text .btn-common {
 	text-transform: uppercase;
 }
 
@@ -343,11 +298,12 @@ button {
    ABOUT SECTION
    ========================================================================== */
 .about .content {
-	background-color: #f6f9ff;
-	padding: 40px;
+	padding: 30px;
 }
 
-/* SERVICE STYLING */
+/* ==========================================================================
+   SERVICE STYLING
+   ================================================================== */
 .services {
 	background-size: cover;
 	background-position: center bottom;
@@ -628,13 +584,13 @@ textarea.form-control {
 }
 
 .footer .footer-top .footer-info p {
-	font-size: 14px;
 	line-height: 26px;
-	letter-spacing: 1px;
+	letter-spacing: 0.5px;
 	margin-bottom: 0;
 	margin-top: 5px;
-	font-weight: bold;
-	font-family: 'Playfair Display', sans-serif;
+}
+.footer-link {
+	text-decoration: none;
 }
 .footer .footer-top .social-links a {
 	font-size: 20px;
@@ -662,6 +618,7 @@ textarea.form-control {
 	list-style: none;
 	padding: 0;
 	margin: 0;
+	text-decoration: none !important;
 }
 .footer .footer-top .footer-links ul i {
 	padding-right: 2px;
@@ -670,7 +627,7 @@ textarea.form-control {
 	line-height: 0;
 }
 .footer .footer-top .footer-links ul li {
-	padding: 10px 0;
+	padding: 3px 0;
 	display: flex;
 	align-items: center;
 }
@@ -679,9 +636,12 @@ textarea.form-control {
 }
 .footer .footer-top .footer-links ul a {
 	color: #013289;
+	padding: 10px 0;
 	transition: 0.3s;
 	display: inline-block;
 	line-height: 1;
+	text-decoration: none;
+	font-weight: bold;
 }
 .footer .footer-top .footer-links ul a:hover {
 	color: #4154f1;

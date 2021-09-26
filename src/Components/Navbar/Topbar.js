@@ -13,9 +13,9 @@ const TopBar = () => {
 							<div class="icon">
 								<i class="icofont-email"></i>
 							</div>
-							<a href="mailto:fastsales@gmail.com">contact@bbbootstrap.com</a>
+							<p>contact@bbbootstrap.com</p>
 						</div>
-						<div class="social-links float-right">
+						<div class="social-links float-right d-none d-xl-block">
 							<a href="#!">
 								<i class="icofont-facebook"></i>
 							</a>

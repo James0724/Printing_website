@@ -1,5 +1,9 @@
 import React from 'react';
 
+//importing logo
+import Logo from '../../img/logo/logo.png';
+import LogoFooter from '../../img/logo/devlogo.png';
+
 const Footer = () => {
 	return (
 		<>
@@ -29,7 +33,7 @@ const Footer = () => {
 						<div class="row gy-4">
 							<div class="col-lg-5 col-md-12 footer-info">
 								<a class="navbar-brand" href="index.html">
-									<img src="img/logo/logo.png" alt="" />
+									<img src={Logo} alt="Logo" />
 								</a>
 								<p>
 									We operate with the momentum statement whereby in matters
@@ -54,7 +58,7 @@ const Footer = () => {
 
 							<div class="col-lg-2 col-6 footer-links">
 								<h4>Useful Links</h4>
-								<ul>
+								<ul class="footer-link">
 									<li>
 										<a href="#hero-area">Home</a>
 									</li>
@@ -72,21 +76,21 @@ const Footer = () => {
 
 							<div class="col-lg-2 col-6 footer-links">
 								<h4>Our Services</h4>
-								<ul>
+								<ul class="footer-link">
 									<li>
-										<a href="#!">Printing</a>
+										<p>Printing</p>
 									</li>
 									<li>
-										<a href="#!">Web Development</a>
+										<p>Web Development</p>
 									</li>
 									<li>
-										<a href="#!">Content Writing</a>
+										<p>Content Writing</p>
 									</li>
 									<li>
-										<a href="#!">Branding</a>
+										<p>Branding</p>
 									</li>
 									<li>
-										<a href="#!">Graphic Design</a>
+										<p>Graphic Design</p>
 									</li>
 								</ul>
 							</div>
@@ -111,7 +115,7 @@ const Footer = () => {
 					<div class="credits">
 						Designed by
 						<a class="footer-devlogo" href="#!">
-							<img src="img/logo/devlogo.png" alt="" />
+							<img src={LogoFooter} alt="Logo" />
 						</a>
 					</div>
 				</div>

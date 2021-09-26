@@ -1,15 +1,17 @@
-import React, { useEffect } from 'react';
+import React from 'react';
+
+//Images
+import work1 from '../../img/work/1.jpg';
+import work2 from '../../img/work/2.jpg';
+import work3 from '../../img/work/3.jpg';
+import work4 from '../../img/work/4.jpg';
+import work5 from '../../img/work/5.jpg';
+import work6 from '../../img/work/6.jpg';
 
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-
 const Portfolio = () => {
-	useEffect(() => {
-		AOS.init({ duration: 2000 });
-	}, []);
 	return (
 		<>
 			<section id="portfolio" className="yellow-bg">
@@ -35,13 +37,9 @@ const Portfolio = () => {
 							<div class="row work-posts">
 								<div class="col-md-4 col-sm-6" data-aos="fade-right">
 									<div class="item">
-										<a href="img/work/1.jpg" class="work-popup">
+										<a href="#!" class="work-popup">
 											<figure class="effect-ruby">
-												<img
-													src="img/work/1.jpg"
-													alt="work-img"
-													class="img-fluid"
-												/>
+												<img src={work1} alt="work-img" class="img-fluid" />
 												<figcaption>
 													<div class="caption">
 														<h2>Printings</h2>
@@ -55,13 +53,9 @@ const Portfolio = () => {
 
 								<div class="col-md-4 col-sm-6" data-aos="fade-right">
 									<div class="item">
-										<a href="img/work/1.jpg" class="work-popup">
+										<a href="#!" class="work-popup">
 											<figure class="effect-ruby">
-												<img
-													src="img/work/2.jpg"
-													alt="work-img"
-													class="img-fluid"
-												/>
+												<img src={work2} alt="work-img" class="img-fluid" />
 												<figcaption>
 													<div class="caption">
 														<h2>Printings</h2>
@@ -75,13 +69,9 @@ const Portfolio = () => {
 
 								<div class="col-md-4 col-sm-6" data-aos="fade-right">
 									<div class="item">
-										<a href="img/work/1.jpg" class="work-popup">
+										<a href="#!" class="work-popup">
 											<figure class="effect-ruby">
-												<img
-													src="img/work/3.jpg"
-													alt="work-img"
-													class="img-fluid"
-												/>
+												<img src={work3} alt="work-img" class="img-fluid" />
 												<figcaption>
 													<div class="caption">
 														<h2>Printings</h2>
@@ -94,13 +84,9 @@ const Portfolio = () => {
 								</div>
 								<div class="col-md-4 col-sm-6" data-aos="fade-right">
 									<div class="item">
-										<a href="img/work/1.jpg" class="work-popup">
+										<a href="#!" class="work-popup">
 											<figure class="effect-ruby">
-												<img
-													src="img/work/4.jpg"
-													alt="work-img"
-													class="img-fluid"
-												/>
+												<img src={work4} alt="work-img" class="img-fluid" />
 												<figcaption>
 													<div class="caption">
 														<h2>Printings</h2>
@@ -113,13 +99,9 @@ const Portfolio = () => {
 								</div>
 								<div class="col-md-4 col-sm-6" data-aos="fade-right">
 									<div class="item">
-										<a href="img/work/1.jpg" class="work-popup">
+										<a href="#!" class="work-popup">
 											<figure class="effect-ruby">
-												<img
-													src="img/work/5.jpg"
-													alt="work-img"
-													class="img-fluid"
-												/>
+												<img src={work5} alt="work-img" class="img-fluid" />
 												<figcaption>
 													<div class="caption">
 														<h2>Printings</h2>
@@ -132,13 +114,9 @@ const Portfolio = () => {
 								</div>
 								<div class="col-md-4 col-sm-6" data-aos="fade-right">
 									<div class="item">
-										<a href="img/work/1.jpg" class="work-popup">
+										<a href="#!" class="work-popup">
 											<figure class="effect-ruby">
-												<img
-													src="img/work/6.jpg"
-													alt="work-img"
-													class="img-fluid"
-												/>
+												<img src={work6} alt="work-img" class="img-fluid" />
 												<figcaption>
 													<div class="caption">
 														<h2>Printings</h2>
@@ -156,13 +134,9 @@ const Portfolio = () => {
 								<div class="row work-posts">
 									<div class="col-md-4 col-sm-6" data-aos="fade-right">
 										<div class="item">
-											<a href="img/work/1.jpg" class="work-popup">
+											<a href="#!" class="work-popup">
 												<figure class="effect-ruby">
-													<img
-														src="img/work/1.jpg"
-														alt="work-img"
-														class="img-fluid"
-													/>
+													<img src={work1} alt="work-img" class="img-fluid" />
 													<figcaption>
 														<div class="caption">
 															<h2>Printings</h2>
@@ -176,13 +150,9 @@ const Portfolio = () => {
 
 									<div class="col-md-4 col-sm-6" data-aos="fade-right">
 										<div class="item">
-											<a href="img/work/1.jpg" class="work-popup">
+											<a href="#!" class="work-popup">
 												<figure class="effect-ruby">
-													<img
-														src="img/work/1.jpg"
-														alt="work-img"
-														class="img-fluid"
-													/>
+													<img src={work1} alt="work-img" class="img-fluid" />
 													<figcaption>
 														<div class="caption">
 															<h2>Printings</h2>
@@ -196,13 +166,9 @@ const Portfolio = () => {
 
 									<div class="col-md-4 col-sm-6" data-aos="fade-right">
 										<div class="item">
-											<a href="img/work/1.jpg" class="work-popup">
+											<a href="#!" class="work-popup">
 												<figure class="effect-ruby">
-													<img
-														src="img/work/1.jpg"
-														alt="work-img"
-														class="img-fluid"
-													/>
+													<img src={work1} alt="work-img" class="img-fluid" />
 													<figcaption>
 														<div class="caption">
 															<h2>Printings</h2>
@@ -221,13 +187,9 @@ const Portfolio = () => {
 								<div class="row work-posts">
 									<div class="col-md-4 col-sm-6" data-aos="fade-right">
 										<div class="item">
-											<a href="img/work/2.jpg" class="work-popup">
+											<a href="#!" class="work-popup">
 												<figure class="effect-ruby">
-													<img
-														src="img/work/2.jpg"
-														alt="work-img"
-														class="img-fluid"
-													/>
+													<img src={work2} alt="work-img" class="img-fluid" />
 													<figcaption>
 														<div class="caption">
 															<h2>Graphic Design</h2>
@@ -246,13 +208,9 @@ const Portfolio = () => {
 								<div class="row work-posts">
 									<div class="col-md-4 col-sm-6" data-aos="fade-right">
 										<div class="item">
-											<a href="img/work/3.jpg" class="work-popup">
+											<a href="#!" class="work-popup">
 												<figure class="effect-ruby">
-													<img
-														src="img/work/3.jpg"
-														alt="work-img"
-														class="img-fluid"
-													/>
+													<img src={work3} alt="work-img" class="img-fluid" />
 													<figcaption>
 														<div class="caption">
 															<h2>Landing Pages</h2>
@@ -266,13 +224,9 @@ const Portfolio = () => {
 
 									<div class="col-md-4 col-sm-6 " data-aos="fade-right">
 										<div class="item">
-											<a href="img/work/4.jpg" class="work-popup">
+											<a href="#!" class="work-popup">
 												<figure class="effect-ruby">
-													<img
-														src="img/work/4.jpg"
-														alt="work-img"
-														class="img-fluid"
-													/>
+													<img src={work4} alt="work-img" class="img-fluid" />
 													<figcaption>
 														<div class="caption">
 															<h2>Blogs</h2>
@@ -286,13 +240,9 @@ const Portfolio = () => {
 
 									<div class="col-md-4 col-sm-6 " data-aos="fade-right">
 										<div class="item">
-											<a href="img/work/5.jpg" class="work-popup">
+											<a href="#!" class="work-popup">
 												<figure class="effect-ruby">
-													<img
-														src="img/work/5.jpg"
-														alt="work-img"
-														class="img-fluid"
-													/>
+													<img src={work5} alt="work-img" class="img-fluid" />
 													<figcaption>
 														<div class="caption">
 															<h2>Ecommerce Websites</h2>
@@ -311,13 +261,9 @@ const Portfolio = () => {
 								<div class="row work-posts">
 									<div class="col-md-4 col-sm-6" data-aos="fade-right">
 										<div class="item">
-											<a href="img/work/3.jpg" class="work-popup">
+											<a href="#!" class="work-popup">
 												<figure class="effect-ruby">
-													<img
-														src="img/work/3.jpg"
-														alt="work-img"
-														class="img-fluid"
-													/>
+													<img src={work3} alt="work-img" class="img-fluid" />
 													<figcaption>
 														<div class="caption">
 															<h2>Branding</h2>
@@ -332,27 +278,6 @@ const Portfolio = () => {
 							</div>
 						</TabPanel>
 					</Tabs>
-
-					{/* 
-
-							<div
-								class="col-md-4 col-sm-6 mix photography"
-								data-bound=""
-								style="display: inline-block;">
-								<div class="item">
-									<a href="img/work/6.jpg" class="work-popup">
-										<figure class="effect-ruby">
-											<img src="img/work/6.jpg" alt="work-img" class="img-fluid" />
-											<figcaption>
-												<h2>Logo design</h2>
-												<p>project six</p>
-											</figcaption>
-										</figure>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div> */}
 				</div>
 			</section>
 		</>

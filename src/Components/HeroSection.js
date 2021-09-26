@@ -1,20 +1,19 @@
 import React from 'react';
 
-import '../App.css';
+//import Backgroundimage
+import Background from '../img/contact-bg.jpg';
 
 const HeroSection = () => {
 	return (
 		<>
-			<section
-				id="hero-area"
-				style={{ backgroundImage: 'url(img/contact-bg.jpg)' }}>
+			<section id="hero-area" style={{ backgroundImage: `url(${Background})` }}>
 				<div class="overlay"></div>
 
 				<div class="container">
-					<div class="row justify-content-md-center">
-						<div class="col-md-10">
+					<div class="row ">
+						<div class="col-md-12">
 							<div class="item active">
-								<div class="contents text-center">
+								<div class="contents ">
 									<h1
 										class="wow fadeInDown"
 										data-wow-duration="1000ms"

@@ -23,9 +23,9 @@ const ContactUs = () => {
 										<i class="icofont-earth"></i>
 										<h3>Address</h3>
 										<p>
-											A108 Adam Street,
+											Nairobi
 											<br />
-											New York, NY 535022
+											Kenya
 										</p>
 									</div>
 								</div>
@@ -34,9 +34,9 @@ const ContactUs = () => {
 										<i class="icofont-phone"></i>
 										<h3>Call Us</h3>
 										<p>
-											+1 5589 55488 55
+											O726140825
 											<br />
-											+1 6678 254445 41
+											0724797790
 										</p>
 									</div>
 								</div>

@@ -1,17 +1,22 @@
 import React from 'react';
 
+//importing images
+import image1 from '../../img/T-Shirt-Printing.jpeg';
+import image2 from '../../img/about/advert1.jpg';
+import image3 from '../../img/about/writting.png';
+
 const About = () => {
 	return (
 		<>
-			<section id="about" class="about section-padding">
+			<section id="about" class="about pt-5 pb-5">
 				<div class="container " data-aos="fade-up">
 					<div class="row gx-0">
 						<div
-							class="col-lg-6 d-flex flex-column justify-content-center "
+							class="col-lg-6 d-flex flex-column "
 							data-aos="fade-up"
 							data-aos-delay="200">
-							<div class="content text-center">
-								<div class="heading-intro">
+							<div class="content ">
+								<div class="heading-intro text-center">
 									<p>Who We Are</p>
 									<h3 class="text-uppercase">About Us</h3>
 								</div>
@@ -38,20 +43,20 @@ const About = () => {
 								class="col-lg-12 d-flex align-items-center "
 								data-aos="zoom-out"
 								data-aos-delay="200">
-								<img src="img/T-Shirt-Printing.jpeg" class="img-fluid" alt="" />
+								<img src={image1} class="img-fluid" alt="Advert" />
 							</div>
 							<div class="row pt-4">
 								<div
 									class="col d-flex align-items-center "
 									data-aos="zoom-out"
 									data-aos-delay="200">
-									<img src="img/about/advert1.jpg" class="img-fluid" alt="" />
+									<img src={image2} class="img-fluid" alt="Advert" />
 								</div>
 								<div
 									class="col d-flex align-items-center "
 									data-aos="zoom-out"
 									data-aos-delay="200">
-									<img src="img/about/writting.png" class="img-fluid" alt="" />
+									<img src={image3} class="img-fluid" alt="Advert" />
 								</div>
 							</div>
 						</div>

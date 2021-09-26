@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
+//importing logo
+import Logo from '../../img/logo/logo.png';
+
 const Navbar = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
 	const [show, setshow] = useState(false);
@@ -31,7 +34,7 @@ const Navbar = () => {
 				<nav class={`bg-nav ${show && 'menu-bg'}`}>
 					<div class="container d-flex align-items-center  justify-content-between">
 						<a class="navbar-brand" href="index.html">
-							<img src="img/logo/logo.png" alt="" />
+							<img src={Logo} alt="Logo" />
 						</a>
 						<div
 							className={`navbar-toggle d-xl-none ${menuOpen ? 'opened' : ''}`}
