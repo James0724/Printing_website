@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 
 //importing logo
 import Logo from '../../img/logo/logo.png';
@@ -6,6 +6,8 @@ import Logo from '../../img/logo/logo.png';
 const Navbar = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
 	const [show, setshow] = useState(false);
+
+	const ref = useRef();
 
 	const controlNavdrop = () => {
 		if (window.scrollY > 10) {
@@ -18,10 +20,18 @@ const Navbar = () => {
 		top: show ? 0 : '40px',
 		transition: 'all 0.5s ease-in',
 	};
+
+	const handleClick = (e) => {
+		if (ref.current.contains(e.target)) {
+			setMenuOpen(false);
+		}
+	};
 	useEffect(() => {
 		window.addEventListener('scroll', controlNavdrop);
+		window.addEventListener('mousedown', handleClick);
 		return () => {
 			window.removeEventListener('scroll', controlNavdrop);
+			window.removeEventListener('mousedown', handleClick);
 		};
 	}, []);
 
@@ -56,7 +66,7 @@ const Navbar = () => {
 								menuOpen ? 'nav-open' : 'nav-close'
 							}`}>
 							<div class="mobile-navbar">
-								<ul class="navbar-nav">
+								<ul class="navbar-nav" ref={ref}>
 									<li class="nav-item">
 										<a class="nav-link active" href="#hero-area">
 											Home

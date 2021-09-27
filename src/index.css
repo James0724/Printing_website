@@ -4,7 +4,8 @@ body {
 	--color-tertiary: #ffff00;
 	--color-header: #000958;
 	--color-blackvariant: #1d1e20;
-	overflow-x: hidden;
+	overflow-x: hidden !important;
+	width: 100%;
 	margin: 0;
 	font-family: 'Poppins', 'Ubuntu', 'Playfair Display', serif;
 }

@@ -19,13 +19,12 @@
 		z-index: -9 !important;
 		position: absolute;
 		opacity: 0 !important;
-		top: -200% !important;
+		top: -10% !important;
 		transition: 0.3s ease-in-out;
 		left: 0;
 	}
 	.mobile-navbar {
 		background: #fff;
-		width: 100%;
 	}
 	.nav-open {
 		position: absolute !important;
