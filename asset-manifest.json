@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Printing_website/static/css/main.5f34b67f.chunk.css",
-    "main.js": "/Printing_website/static/js/main.b06b7ab1.chunk.js",
-    "main.js.map": "/Printing_website/static/js/main.b06b7ab1.chunk.js.map",
+    "main.css": "/Printing_website/static/css/main.54fbc416.chunk.css",
+    "main.js": "/Printing_website/static/js/main.56db9d02.chunk.js",
+    "main.js.map": "/Printing_website/static/js/main.56db9d02.chunk.js.map",
     "runtime-main.js": "/Printing_website/static/js/runtime-main.3303ea02.js",
     "runtime-main.js.map": "/Printing_website/static/js/runtime-main.3303ea02.js.map",
     "static/css/2.c97faa64.chunk.css": "/Printing_website/static/css/2.c97faa64.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.a1b041b0.chunk.js.map": "/Printing_website/static/js/2.a1b041b0.chunk.js.map",
     "index.html": "/Printing_website/index.html",
     "static/css/2.c97faa64.chunk.css.map": "/Printing_website/static/css/2.c97faa64.chunk.css.map",
-    "static/css/main.5f34b67f.chunk.css.map": "/Printing_website/static/css/main.5f34b67f.chunk.css.map",
+    "static/css/main.54fbc416.chunk.css.map": "/Printing_website/static/css/main.54fbc416.chunk.css.map",
     "static/js/2.a1b041b0.chunk.js.LICENSE.txt": "/Printing_website/static/js/2.a1b041b0.chunk.js.LICENSE.txt",
     "static/media/1.2786792c.jpg": "/Printing_website/static/media/1.2786792c.jpg",
     "static/media/2.658a52e0.jpg": "/Printing_website/static/media/2.658a52e0.jpg",
@@ -25,7 +25,7 @@
     "static/media/blog-3.d9c45891.jpg": "/Printing_website/static/media/blog-3.d9c45891.jpg",
     "static/media/contact-bg.67bc1ef3.jpg": "/Printing_website/static/media/contact-bg.67bc1ef3.jpg",
     "static/media/devlogo.1e19149f.png": "/Printing_website/static/media/devlogo.1e19149f.png",
-    "static/media/heroSection1.39ce2c52.png": "/Printing_website/static/media/heroSection1.39ce2c52.png",
+    "static/media/herosection2.23a2524c.png": "/Printing_website/static/media/herosection2.23a2524c.png",
     "static/media/icofont.css": "/Printing_website/static/media/icofont.dad3accb.woff",
     "static/media/logo.85775ca3.png": "/Printing_website/static/media/logo.85775ca3.png",
     "static/media/writting.09166873.png": "/Printing_website/static/media/writting.09166873.png"
@@ -34,7 +34,7 @@
     "static/js/runtime-main.3303ea02.js",
     "static/css/2.c97faa64.chunk.css",
     "static/js/2.a1b041b0.chunk.js",
-    "static/css/main.5f34b67f.chunk.css",
-    "static/js/main.b06b7ab1.chunk.js"
+    "static/css/main.54fbc416.chunk.css",
+    "static/js/main.56db9d02.chunk.js"
   ]
 }
